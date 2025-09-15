@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a:link {
+  color: #f6f5f2;
+	background-color: #8f8e7f
+}
+
+/* visited link */
+a:visited {
+  color: #f6f5f2;
+}
+
+/* mouse over link */
+a:hover {
+  color: #1e90ff;
+}
+
+/* selected link */
+a:active {
+  color: #1e90ff;
+}
+
+body {
+	background-color:#f6f5f2; 
+	color:#1e90ff;
+}
+
+#headerdiv {
+	background-color: #1e90ff; 
+	font-size: 50px; 
+	text-align: center; 
+	color: #f6f5f2; 
+	padding: 25px;
+}
+#navdiv {
+	text-align: center;
+	background-color: #1e90ff;
+	color: #f6f5f2;
+	padding: 15px;
+}
+#grablediv {
+	padding: 15px;
+}
+#footer {
+	text-align: center; 
+	background-color: #1e90ff; 
+	color: #f6f5f2; 
+	padding: 15px; 
+	font-size: 12px;
+}
+.threecolumns {
+	width: 31%;
+	padding: 15px;
+	float: left;
+}
+.threecolumns:hover {
+	border: 2px solid #ff0000;
+	box-shadow: 0px 0px 5px 5px #cccccc;
+	transform: translateY(-5px);
+	border-radius: 10px; 
+	box-shadow: 0 0 5px gray;
+}
+
+
+
